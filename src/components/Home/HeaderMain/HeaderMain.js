@@ -9,7 +9,7 @@ const HeaderMain = () => {
 
                 <p className="text-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio optio repudiandae hic, molestias officiis minus tempora necessitatibus voluptatem neque nobis?</p>
 
-                <button style={{backgroundColor:'#3A4256'}} className="btn btn-primary">GET APPOINMENT</button>
+                <button style={{backgroundColor:'#3A4256' , color:'white'}} className="btn">GET APPOINTMENT</button>
             </div>
             <div className="col-md-6">
                 <img src={chair} alt="" class="img-fluid" alt="Responsive image"/>
