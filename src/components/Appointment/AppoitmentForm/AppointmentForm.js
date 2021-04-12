@@ -19,7 +19,11 @@ Modal.setAppElement('#root')
 const AppointmentForm = ({modalIsOpen , closeModal , appointmentOn, date}) => {
 
     const { handleSubmit, errors } = useForm();
-    const onSubmit = data => console.log(data);
+
+    const onSubmit = data => {
+        console.log(data);
+        closeModal();
+    }
 
     return (
         <div>
@@ -37,7 +41,7 @@ const AppointmentForm = ({modalIsOpen , closeModal , appointmentOn, date}) => {
 
                 <div className="form-group">
                     <input type="text" name="name" placeholder="Your Name" className="form-control" />
-                    {errors && <span>This field is required</span>}
+                    {errors && <span className="text-danger">This field is required</span>}
                 </div>
 
                 <div className="form-group">
