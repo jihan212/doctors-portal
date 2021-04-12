@@ -9,22 +9,22 @@ const Navigation = () => {
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link mr-5" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link mr-5" href="/">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mr-5" href="#">About</a>
+                        <a class="nav-link mr-5" href="/">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mr-5 text-white" href="#">Dental service</a>
+                        <a class="nav-link mr-5 text-white" href="/">Dental service</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mr-5 text-white" href="#">Review</a>
+                        <a class="nav-link mr-5 text-white" href="/">Review</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mr-5 text-white" href="#">Blog</a>
+                        <a class="nav-link mr-5 text-white" href="/">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mr-5 text-white" href="#">Contact Us</a>
+                        <a class="nav-link mr-5 text-white" href="/">Contact Us</a>
                     </li>
                 </ul>
             </div>

@@ -12,7 +12,7 @@ const HeaderMain = () => {
                 <button style={{backgroundColor:'#3A4256' , color:'white'}} className="btn">GET APPOINTMENT</button>
             </div>
             <div className="col-md-6">
-                <img src={chair} alt="" class="img-fluid" alt="Responsive image"/>
+                <img src={chair} class="img-fluid" alt=""/>
             </div>
         </main>
     );

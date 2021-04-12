@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import chair from '../../../images/chair.png';
 import './AppointHeader.css';
 import Calendar from 'react-calendar';
@@ -17,7 +17,7 @@ const AppointHeader = ({handleDateChange}) => {
                 <Calendar onChange={handleDateChange} value={new Date()} />
             </div>
             <div className="col-md-5">
-                <img src={chair} alt="" class="img-fluid" alt="Responsive image"/>
+                <img src={chair} class="img-fluid" alt=""/>
             </div>
         </main>
         </div>
