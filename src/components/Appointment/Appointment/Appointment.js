@@ -1,12 +1,13 @@
 import React from 'react';
 import Footer from '../../Shared/Footer/Footer';
 import Navigation from '../../Shared/Navigation/Navigation';
+import AppointHeader from '../AppointHeader/AppointHeader';
 
 const Appointment = () => {
     return (
         <div>
             <Navigation></Navigation>
-            <h1>This is appointment</h1>
+            <AppointHeader></AppointHeader>
             <Footer></Footer>
         </div>
     );
