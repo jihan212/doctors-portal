@@ -1,6 +1,6 @@
 import React from 'react';
-import Footer from '../../Home/Footer/Footer';
-import Navigation from '../../Home/Navigation/Navigation';
+import Footer from '../../Shared/Footer/Footer';
+import Navigation from '../../Shared/Navigation/Navigation';
 
 const Appointment = () => {
     return (
