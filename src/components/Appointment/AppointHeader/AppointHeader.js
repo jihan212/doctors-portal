@@ -7,8 +7,6 @@ import 'react-calendar/dist/Calendar.css';
 
 const AppointHeader = ({handleDateChange}) => {
 
-
-
     return (
         <div className="header">
              <main style={{height:'600px'}} className="row d-flex align-items-center">
