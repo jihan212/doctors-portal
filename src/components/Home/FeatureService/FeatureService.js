@@ -14,7 +14,7 @@ const FeatureService = () => {
 
                         <p className="text-secondary my-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae saepe aperiam ab quae beatae minus, voluptas nihil expedita libero omnis reprehenderit, sunt autem vitae accusantium aliquid odio inventore sint alias recusandae, corporis dolor? Architecto, pariatur. Commodi quisquam delectus facere ad doloremque qui excepturi voluptates expedita velit harum, quidem consectetur consequatur, sunt laborum. Quo vel reprehenderit omnis natus inventore? Voluptatibus a vitae ut. Magni, voluptatibus? Iste unde, laboriosam temporibus inventore blanditiis velit vitae rerum dolores doloribus soluta quia doloremque illo labore explicabo beatae totam officia aperiam placeat, obcaecati nemo in tenetur voluptatem quisquam. Nihil, rerum esse. Cum aliquam est necessitatibus distinctio.</p>
 
-                        <button style={{backgroundColor: '#1CC7C1', color: 'white'}} className="btn">Learn More</button>
+                        <button className="btn btn-brand">Learn More</button>
                     </div>
                 </div>
             </div>

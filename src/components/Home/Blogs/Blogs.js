@@ -33,7 +33,7 @@ const Blogs = () => {
         <section className="blogs my-5">
             <div className="container">
                 <div className="section-header text-center">
-                    <h5 style={{color: '#1CC7C1'}} className="text-uppercase">Our Blog</h5>
+                    <h5 className="text-uppercase text-brand">Our Blog</h5>
                     <h1 className="text-uppercase">From Our Blog</h1>
                 </div>
                 <div className="card-deck mt-5">
