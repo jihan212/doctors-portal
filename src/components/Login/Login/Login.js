@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import LoginBg from '../../../images/loginBg.png';
 import firebase from "firebase/app";
 import "firebase/auth";
 import firebaseConfig from '../firebase.config';
+import { UserContext } from '../../../App';
+
 
 
 if (firebase.apps.length === 0) {
@@ -12,16 +14,22 @@ if (firebase.apps.length === 0) {
 
 const Login = () => {
 
+    const [loggedInUser, setLoggedInUser] = useContext(UserContext);
+
     const handleGoogleSignIn = () => {
         const provider = new firebase.auth.GoogleAuthProvider();
         firebase.auth().signInWithPopup(provider).then(function (result) {
-            var user = result.user;
-            console.log(user);
+            const { displayName, email } = result.user;
+            const signedInUser = { name: displayName, email }
+            setLoggedInUser(signedInUser);
+            
           }).catch(function (error) {
             const errorMessage = error.message;
             console.log(errorMessage);
           });
     }
+
+    
 
     return (
         <div className="login-page container">
