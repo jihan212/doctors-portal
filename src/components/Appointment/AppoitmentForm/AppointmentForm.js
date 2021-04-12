@@ -50,25 +50,15 @@ const AppointmentForm = ({modalIsOpen , closeModal , appointmentOn, date}) => {
                     {errors && <span>This field is required</span>}
                 </div>
 
-                <div className="form-group row">
-                        <div className="col-4">
-                            <select className="form-control" name="gender"  >
-                                <option disabled={true} value="Not set">Select Gender</option>
-                                <option value="Male">Male</option>
-                                <option value="Female">Female</option>
-                                <option value="Not set">Other</option>
-                            </select>
-                            {errors && <span>This field is required</span>}
-                        </div>
-                        <div className="col-4">
-                            <input  className="form-control" name="age" placeholder="Your Age" type="number" /> 
-                            {errors && <span>This field is required</span>}
-                        </div>
-                        <div className="col-4">
-                            <input className="form-control" name="weight" placeholder="Weight" type="number" />  
-                            {errors && <span>This field is required</span>}        
-                        </div>
-                    </div>
+                <div className="form-group">
+                    <input type="date" name="date" placeholder="Date" className="form-control" />
+                    {errors && <span>This field is required</span>}
+                </div>
+
+                <div className="form-group">
+                    <input type="time" name="time" placeholder="Time" className="form-control" />
+                    {errors && <span>This field is required</span>}
+                </div>
 
                 <div className="form-group text-right">
                         <button type="submit" className="btn btn-brand">Send</button>
