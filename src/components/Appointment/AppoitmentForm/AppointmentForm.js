@@ -18,7 +18,7 @@ Modal.setAppElement('#root')
 
 const AppointmentForm = ({modalIsOpen , closeModal , appointmentOn, date}) => {
 
-    const { register, handleSubmit, errors } = useForm();
+    const { handleSubmit, errors } = useForm();
     const onSubmit = data => console.log(data);
 
     return (
